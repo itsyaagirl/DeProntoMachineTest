@@ -1,3 +1,57 @@
-.topnav {
+p.head {
+ font-size: 80%;
+ text-align: left;
+ color: inherit;
+ font-family: sans-serif;
+}
+table.header {
+  width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 90px;
+}
+th.hash{
+  padding-left: 100px;
+  padding-right: 0px;
 
+}
+input.searchbar{
+  color: black;
+}
+
+table.menu {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  padding-bottom: collapse;
+}
+tr.menu1{
+  font-size: 10px;
+  font-family: monospace;
+  color:  #964B00;
+}
+h3.note{
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+.note{
+  background-color: #FFB09B;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  background-color: #f5f0e7;
+}
+
+
+/* Clear floats after the columns*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+    background-color: #F5F0E7;
 }
